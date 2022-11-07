@@ -11,7 +11,7 @@ private fun <L, R> test(
     println(actual)
     if (!predicate()) {
         print(ERROR_TAG)
-        println("$actual (${if (checkEquals) "!=" else "=="} $expected)")
+        println("$actual ${if (checkEquals) "!=" else "=="} $expected")
     }
 }
 
