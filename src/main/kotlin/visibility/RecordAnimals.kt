@@ -1,5 +1,6 @@
 package visibility
 
+
 private var index = 0
 
 private class Animal(val name: String)
