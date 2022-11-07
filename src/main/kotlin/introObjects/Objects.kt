@@ -6,4 +6,5 @@ fun main() {
 
     println(r1)
     println(r2)
+    println(r2.sum())
 }

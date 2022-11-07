@@ -26,9 +26,7 @@ fun main() {
 
 }
 
-//    'in' checando se um caractere pertence a um intervalo de caracteres
-fun isDigit(ch: Char) = ch in '0'..'9'
 
-//     'in checando se um caractere não pertence a um intervalo de caracteres
+fun isDigit(ch: Char) = ch in '0'..'9'
 fun notDigit(ch: Char) = ch !in '0'..'9'
 

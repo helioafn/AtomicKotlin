@@ -9,7 +9,7 @@ fun multiplyByTwo(x: Int): Int {
 // Declarando o tipo de retorno explicitamente
 fun multiplyByThree(x: Int): Int = x * 3
 
-// Deixando o compilador inferir o tipo
+// Deixando o compilador inferir o tipo do retorno
 fun powerTwo(x: Int) = x * x
 
 fun main() {

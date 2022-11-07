@@ -5,7 +5,7 @@ fun main() {
     val hoursSleep = 6
     val exercise = false
     val temp = 55
-
+    // (&&) são calculados primeiros que (||)
     val happy1 = sunny && temp > 50 || exercise && hoursSleep > 7
     println(happy1)  // true?
     val sameHappy1 = (sunny && temp > 50) || (exercise && hoursSleep > 7)

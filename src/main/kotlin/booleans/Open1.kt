@@ -5,7 +5,7 @@ fun isOpen(hour: Int) {
     val open = 9
     val closed = 20
     println("Operating hours: $open - $closed")
-    val status = hour >= open && hour <= closed
+    val status = hour in open..closed // O mesmo que hour >= open && hour <= closed
     println("Open: $status")
 }
 //    && (E lógico): true se as expressões de ambos os lados do operador forem true, caso contrário false.

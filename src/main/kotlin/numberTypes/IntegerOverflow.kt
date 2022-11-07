@@ -2,7 +2,7 @@ package numberTypes
 
 fun main() {
     val i: Int = Int.MAX_VALUE
-    println(i + i)  // Generates a overflow
+    println(i + i)  // Generates an overflow
 
     // Preventing Int overflow using Long
     println(0L + i + i)
